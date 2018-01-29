@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,user-scalable=no" />
+		<script src="./assets/js/jquery-3.2.1.min.js"></script>
+		<script src="./assets/js/main.js"></script>
+		<link href="./assets/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+		<link href="./assets/css/layout.css" type="text/css" rel="stylesheet">
+		<link href="./assets/css/content.css" type="text/css" rel="stylesheet">
+		<link href="./assets/css/common.css" type="text/css" rel="stylesheet">
+		<link href="assets/css/element.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="navbar">
+				<!--logo显示-->
+				<a class="logo" href="#"><img src="./assets/img/logo.png"/></a>
+				<!--菜单展示按钮，默认隐藏，手机版才显示-->
+				<a class="menubtn" href="javascript:;">
+					<img src="./assets/img/menu-toggler.png"/>
+				</a>
+				<!--更多信息-->
+				<ul class="ullist">
+					<!--可以下拉列表-->
+					<li class="dropdown">
+						<a href="javascript:;">信息1</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">信息列表1</a></li>
+							<li><a href="#">信息列表2</a></li>
+							<li><a href="#">信息列表3</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;">信息2</a>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;">信息2</a>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;">信息2</a>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;">信息1</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">信息列表1</a></li>
+							<li><a href="#">信息列表2</a></li>
+							<li><a href="#">信息列表3</a></li>
+						</ul>
+					</li>
+
+					<li class="dropdown">
+						<a href="javascript:;">
+							<img src="" style="width: 30px;height: 30px;" alt="头像"/>
+							<span>名字</span>
+							<i class="fa fa-angle-down"></i>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">账户</a></li>
+							<li><a href="#">信息</a></li>
+							<li class="line"></li>
+							<li><a href="#">退出登录</a></li>
+						</ul>
+					</li>
+
+				</ul>
+
+			</div>
+		</div>
+		<!--头部结束-->
+
+		<div class="container">
+			<!--菜单列表-->
+			<div class="navmenu menu-wh">
+				<ul class="page-menu">
+					<li class="menubtn-li">
+						<div class="menubtn menu-bm">
+							<img src="./assets/img/menur-toggler.jpg"/>
+						</div>
+						<div class="cb"></div>
+					</li>
+					<li class="start">
+						<a href="#">
+							<i class="fa fa-home"></i>
+							<span>首页</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="javascript:;">
+							<i class="fa fa-list-ul"></i>
+							<span>一级菜单跳转</span>
+							<span class="arrow"></span>
+						</a>
+						<ul class="sub-menu">
+							<li>
+								<a href="#">列表1</a>
+							</li>
+							<li>
+								<a href="#">列表1</a>
+							</li>
+						</ul>
+					</li>
+					
+					<li>
+						<a href="javascript:;">
+							<i class="fa fa-list-ul"></i>
+							<span>一级菜单跳转</span>
+							<span class="arrow"></span>
+						</a>
+						<ul class="sub-menu">
+							<li>
+								<a href="#">列表1</a>
+							</li>
+							<li>
+								<a href="#">列表1</a>
+							</li>
+						</ul>
+					</li>
+
+				</ul>
+			</div>
+			<!--菜单列表结束-->
+
+			<!--主要内容-->
+			<div class="content">
+				<div class="c-header box-1">
+					<div class="title">
+						<h2>页内标题	<small>页内简介</small></h2>
+					</div>
+					<ul>
+						<li>
+							<i class="fa fa-list-ul"></i>
+							<a href="#">一级菜单列表</a>
+							<i class="fa fa-angle-right"></i>
+						</li>
+						<li>
+							<a href="#">列表1</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="box-1">
+					<div class="box-6">
+						<div class="box-bd-r box-b">
+							<div class="box-tit-r">标题</div>
+							<div class="box-body">内容</div>
+						</div>
+					</div>
+
+					<div class="box-6">
+						<div class="box-ml box-bd-g box-b">
+							<div class="box-tit-g">标题</div>
+							<div class="box-body">内容</div>
+						</div>
+					</div>
+					<div class="cb"></div>
+				</div>
+
+				<div class="box-1">
+					<div class="box-bd-r box-b">
+						<div class="box-tit-r">标题</div>
+						<div class="box-body">
+							<div class="pa100">
+								<button class="btn fl">添加</button>
+								<button class="btn fr">删除</button>
+								<div class="cb"></div>
+							</div>
+
+							<table>
+								<thead>
+									<tr>
+										<th>
+											标题一
+										</th>
+										<th>
+											标题二
+										</th>
+										<th>
+											标题三
+										</th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr>
+										<td>
+											内容一
+										</td>
+										<td>
+											内容二
+										</td>
+										<td>
+											内容三
+										</td>
+									</tr>
+									<tr>
+										<td>
+											内容一
+										</td>
+										<td>
+											内容二
+										</td>
+										<td>
+											内容三
+										</td>
+									</tr>
+									<tr>
+										<td>
+											内容一
+										</td>
+										<td>
+											内容二
+										</td>
+										<td>
+											内容三
+										</td>
+									</tr>
+									<tr>
+										<td>
+											内容一
+										</td>
+										<td>
+											内容二
+										</td>
+										<td>
+											内容三
+										</td>
+									</tr>
+									<tr>
+										<td>
+											内容一
+										</td>
+										<td>
+											内容二
+										</td>
+										<td>
+											内容三
+										</td>
+									</tr>
+									<tr>
+										<td>
+											内容一
+										</td>
+										<td>
+											内容二
+										</td>
+										<td>
+											内容三
+										</td>
+									</tr>
+									<tr>
+										<td>
+											内容一
+										</td>
+										<td>
+											内容二
+										</td>
+										<td>
+											内容三
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<div class="pa100">
+								<div class="fl">页码：1/10</div>
+								<div class="fr">
+									<ul class="fenye">
+										<li class="pre dis">
+											<a href="#">上一页</a>
+										</li>
+										<li class="active">
+											<a href="#">1</a>
+										</li>
+										<li>
+											<a href="#">2</a>
+										</li>
+										<li>
+											<a href="#">3</a>
+										</li>
+										<li class="next">
+											<a href="#">下一页</a>
+										</li>
+									</ul>
+								</div>
+								<div class="cb"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="box-1">
+					<div class="tab box-b">
+						<ul class="tab-nav">
+							<li class="active">
+								<a href="javascript:;" tab="1">tab1</a>
+							</li>
+							<li>
+								<a href="javascript:;" tab="2">tab2</a>
+							</li>
+							<li>
+								<a href="javascript:;" tab="3">tab3</a>
+							</li>
+							<li>
+								<a href="javascript:;" tab="4">tab4</a>
+							</li>
+						</ul>
+
+						<div class="tab-content">
+							<div id="tab1" class="box-1 tab-pane active">
+								1111
+							</div>
+							<div id="tab2" class="box-1 tab-pane">
+								2222
+							</div>
+							<div id="tab3" class="box-1 tab-pane">
+								33333
+							</div>
+							<div id="tab4" class="box-1 tab-pane">
+								4444
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--主要内容结束-->
+		</div>
+		<div class="cb"></div>
+		<div class="footer">2017 © by song.</div>
+	</body>
+</html>

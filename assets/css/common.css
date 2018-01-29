@@ -1,0 +1,204 @@
+.box-1{
+    width: 100%;
+}
+.box-2{
+    float: left;
+    width: 16.66666666%;
+}
+.box-3{
+    float: left;
+    width: 25%;
+}
+.box-4{
+    float: left;
+    width: 33.3333333%;
+}
+.box-6{
+    float: left;
+    width: 50%;
+}
+.box-8{
+    float: left;
+    width: 66.6666666%;
+}
+.box-10{
+    float: left;
+    width: 83.3333333%;
+}
+.box-b{
+    clear: both;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.box-bd{
+    border: 1px solid #e5e5e5;
+}
+.box-bd-r{
+    border: 1px solid #e02222;
+}
+.box-bd-g{
+    border: 1px solid #35aa47;
+}
+.box-bd-b{
+    border: 1px solid #4b8df8;
+}
+.box-tit{
+    padding: 10px;
+    background-color: #e5e5e5;
+    color: #333333;
+}
+.box-tit-r{
+    padding: 10px;
+    background-color: #e02222;
+    color: #fff;
+}
+.box-tit-g{
+    padding: 10px;
+    background-color: #35aa47;
+    color: #fff;
+}
+.box-tit-b{
+    padding: 10px;
+    background-color: #4b8df8;
+    color: #fff;
+}
+.box-body{
+    padding: 10px;
+}
+.box-ml{
+    margin-left: 10px;
+}
+.cb{
+     clear: both;
+ }
+.pa5{
+    padding: 5px;
+}
+.pa510{
+    padding: 5px 10px;
+}
+.pa10{
+    padding: 10px;
+}
+.pa20{
+    padding: 20px;
+}
+.pa010{
+    padding: 0 10px;
+}
+.pa100{
+    padding: 10px 0;
+}
+.pa1020{
+    padding: 10px 20px;
+}
+.pa2010{
+    padding: 20px 10px;
+}
+.ma5{
+    margin: 5px;
+}
+.ma10{
+    margin: 10px;
+}
+.ma05{
+    margin: 0 5px;
+}
+.mal5{
+    margin-left: 5px;
+}
+.h10{
+    height: 10px;
+}
+.h30{
+    height: 30px;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.nbsp{
+    text-indent: 2em;
+}
+.bn{
+    cursor:pointer;
+}
+
+/*颜色样式*/
+.cg{
+    background-color: #eee;
+    color: #000;
+}
+.cw{
+    background-color: #fff;
+    color: #000;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 20px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.2em;
+}
+h4{
+    font-size: 0.95em;
+}
+h5{
+    font-size: 0.8em;
+}
+h6{
+    font-size: 0.7em;
+}
+small{
+    font-size: 0.6em;
+    color: #999;
+}
+.line{
+    height: 1px;
+    margin: 9px 1px;
+    overflow: hidden;
+    background-color: #e5e5e5;
+    border-bottom: 1px solid #fff;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+@media (max-width: 980px) {
+    .box-2{
+        width: 100%;
+    }
+    .box-3{
+        width: 100%;
+    }
+    .box-4{
+        width: 100%;
+    }
+    .box-6{
+        width: 100%;
+    }
+    .box-8{
+        width: 100%;
+    }
+    .box-10{
+        width: 100%;
+    }
+    .box-ml{
+        margin-left: 0px;
+    }
+}

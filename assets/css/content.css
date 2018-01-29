@@ -1,0 +1,10 @@
+.container .content .title{
+    padding: 0px;
+    font-size: 18px;
+    letter-spacing: -1px;
+    display: block;
+    color: #666;
+    margin: 20px 0px 15px 0px;
+    font-weight: 300;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial;
+}

@@ -1,0 +1,260 @@
+/*关于表格和分页*/
+table{
+    clear: both;
+    width: 100%;
+    margin: 5px 0;
+    border: 0;
+    border-collapse: separate;
+    border-radius: 0 !important;
+    border-spacing: 0;
+    background-color: transparent;
+}
+
+table thead{
+    background-color: #d0d0d0;
+}
+
+table th , table td{
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+
+table thead tr th {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+table tbody tr td {
+    font-size: 13px;
+    border-top: 0;
+}
+
+table tbody tr:hover {
+    background-color: #efefef;
+}
+
+.fenye li{
+    float: left;
+    display: inline;
+}
+
+.fenye li a{
+    border: 1px solid #ddd;
+    float: left;
+    padding: 4px 12px;
+    line-height: 20px;
+    text-decoration: none;
+    border-left-width: 0;
+    outline: 0;
+    text-shadow: none !important;
+    background-color: #fff;
+    color: #0d638f !important;
+}
+
+.fenye li:first-child a{
+    border-left-width: 1px;
+}
+
+.fenye li a:hover{
+    text-decoration: none !important;
+    color:white ;
+    outline: 0;
+}
+
+.fenye .dis a ,.fenye .active a{
+    color: #999 !important;
+    cursor: default;
+}
+/*end*/
+
+
+
+/*tab选择器*/
+.tab .tab-nav:before , .tab .tab-content:before{
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.tab .tab-nav:after , .tab .tab-content:after{
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.tab .tab-nav > li{
+    margin-right: 2px;
+    border-top: 2px solid transparent;
+    margin-bottom: -1px;
+    float: left;
+    border-radius: 0 !important;
+}
+
+.tab .tab-nav > li > a , .tab .tab-nav > li > a:hover{
+    margin-right: 0;
+    padding: 5px 10px;
+    line-height: 20px;
+    border: 1px solid transparent;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    display: block;
+    text-decoration: none;
+}
+
+.tab .tab-nav > li.active{
+    border-top: 3px solid #d12610;
+    margin-top: 0;
+    position: relative;
+}
+
+.tab .tab-nav > li.active > a{
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border-top: none;
+}
+
+.tab .tab-content{
+    border-top: 1px solid #ddd;
+    padding: 27px 0;
+    background-color: #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.tab .tab-content .tab-pane{
+    display: none;
+    padding: 0 5px;
+}
+
+.tab .tab-content .tab-pane.active{
+    display: block;
+}
+/*end*/
+
+
+/*关于按钮*/
+.btn{
+    background-color: #e5e5e5;
+    filter: none;
+    border: 0;
+    padding: 8px 16px;
+    text-shadow: none;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;
+    outline: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+.btn:hover{
+    background-color: #d8d8d8;
+}
+
+.btn.red{
+    color: #fff !important;
+    background-color: #d84a38 !important;
+}
+.btn.red:hover{
+    background-color: #bb2415 !important;
+}
+
+.btn.blue{
+    color: #fff !important;
+    background-color: #4d90fe !important;
+}
+.btn.blue:hover{
+    background-color: #0262fd !important;
+}
+
+.btn.green{
+    color: #fff !important;
+    background-color: #35aa47 !important;
+}
+.btn.green:hover{
+    background-color: #1d943b !important;
+}
+/*end*/
+
+label,select,button,input{
+    cursor: pointer;
+}
+
+label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+img {
+    width: auto\9;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+i{
+    display: inline-block;
+    margin-top: 5px;
+    margin: 0;
+    font-size: 16px;
+    color: #8a8a8a !important;
+}
+
+.inp{
+    -webkit-appearance: none !important;
+    color: #333333;
+    outline: 0;
+    height: 20px;
+    padding: 6px 6px !important;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    vertical-align: top;
+    background-color: #ffffff;
+    background-image: none !important;
+    filter: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    background: transparent;
+    border: 1px solid #e5e5e5;
+    transition: border linear .2s,box-shadow linear .2s;
+}
+
+textarea.inp{
+    height: 50px;
+    min-width: 200px;
+}
+
+select{
+    display: inline-block;
+    min-height: 30px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    background-image: none !important;
+    filter: none !important;
+    border: 1px solid #e5e5e5;
+    outline: none;
+    height: 34px !important;
+    line-height: 30px;
+}

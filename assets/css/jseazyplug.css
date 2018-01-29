@@ -1,0 +1,30 @@
+.jseazyplug-box{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.jseazyplug-box .backdrop{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1999;
+    background-color: #000;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    -webkit-transition: opacity .15s linear;
+    -moz-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+
+.jseazyplug-box .info-box{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    z-index: 2000;
+    background-color: #fff;
+}
